@@ -12,6 +12,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 part 'authentication_state.dart';
 class AuthenticationCubit extends Cubit<AuthenticationState> {
   AuthenticationCubit() : super(AuthenticationState(
+    emailAddress: "",
     isLoginSuccess: false,
     isloading: false,
     isObsecure: true
@@ -58,6 +59,10 @@ class AuthenticationCubit extends Cubit<AuthenticationState> {
         emit(state.copyWith(isloading: false, isLoginSuccess: false));
       }
     });
+  }
+
+  setEmail({required String emailAddress}) {
+    emit(state.copyWith(emailAddress: emailAddress));
   }
 
   showToast({required String message}) {
