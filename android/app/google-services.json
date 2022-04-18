@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384976334372",
+    "project_id": "e-bin-fc902",
+    "storage_bucket": "e-bin-fc902.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384976334372:android:63b1f42cbe066b2f5f32b1",
+        "android_client_info": {
+          "package_name": "com.ebin.ebin_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384976334372-b6hfhk3fsi7h7h5af56fkkolbiooq9ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhODDEILoCofbdS_Np_PCxtHDA6KpV7fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384976334372-b6hfhk3fsi7h7h5af56fkkolbiooq9ld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
